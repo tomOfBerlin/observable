@@ -8,10 +8,12 @@ install: `npm i toms-observable`
 Observable: State across Frameworks
 
 - Lightweight and fast (2kb)
+<br>
 
 
 
-Basic Example: [codesandbox Demo](https://codesandbox.io/p/sandbox/broken-dust-dd33md)
+*Basic Example:*
+[codesandbox Demo](https://codesandbox.io/p/sandbox/broken-dust-dd33md)
 
 Import observable:
 ```jsx
