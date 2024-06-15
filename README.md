@@ -1,8 +1,6 @@
 ![Observable (light mode)](./img/observable-header-light.png#gh-light-mode-only)
 ![Observable (dark mode)](./img/observable-header-dark.png#gh-dark-mode-only)
 
-<br>
-
 Provides State across Frameworks. Change your state from anywhere and have it update in React.
 
 - Lightweight and fast (2kb)
