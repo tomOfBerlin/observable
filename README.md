@@ -53,7 +53,7 @@ export default function App() {
 
 <br>
 
-## Custom Getters (making hello Uppercase)
+## Custom Getters (e.g. all Uppercase)
 [Open on Codesandbox](https://codesandbox.io/p/sandbox/observable-bascis-forked-f246vk)
 <br>
 <br>
