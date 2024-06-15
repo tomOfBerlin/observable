@@ -43,4 +43,23 @@ export default function App() {
 }
 ```
 
-More demos are coming soon...
+## Custom Getters - making hello Uppercase:
+
+```jsx
+// Change to let
+let helloObservable = observable("Hello Default");
+
+// add a custom get (you could overwrite the default get, but this gives you more flexibility
+helloObservable.getUpper = function () {
+  return this.state.toUpperCase();
+};
+```
+
+In react you can specify the getter to be used - the same observable can have multiple getters
+```jsx
+[hello, setHello] = helloObservable.reactUseState({'getter': 'getUpper'});
+```
+
+## Documentation
+
+Full docs and more demos are coming soon...
