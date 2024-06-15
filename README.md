@@ -69,7 +69,7 @@ helloObservable.getUpper = function () {
 ```
 <br>
 
-In react you can specify the getter to be used - the same observable can have multiple getters
+In react you can specify the getter to be used - the same observable can have unlimited getters
 ```jsx
 [hello, setHello] = helloObservable.reactUseState({'getter': 'getUpper'});
 ```
