@@ -40,7 +40,7 @@ And use it within React. Just like useState. It´s all connected.
 export default function App() {
   [hello, setHello] = helloObservable.reactUseState();
 
-  setHello("Hello from React"); // identical to helloObservable.set, both work
+  setHello("Hello from React"); // identical to helloObservable.set, both update
 
   return (
     <div className="App">
