@@ -67,10 +67,13 @@ let helloObservable = observable("Hello Default");
 helloObservable.getUpper = function () {
   return this.state.toUpperCase();
 };
+
+helloObservable.getUpper() // HELLO DEFAULT
+helloObservable.get() // Hello Default
 ```
 <br>
 
-In react you can specify the getter to be used - the same observable can have unlimited getters
+In React you can specify the getter to be used - the same observable can have unlimited getters
 ```jsx
 [hello, setHello] = helloObservable.reactUseState({'getter': 'getUpper'});
 ```
