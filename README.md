@@ -1,7 +1,3 @@
-# Tom´s Observable
-State across frameworks
-<br>
-
 ![Observable (light mode)](./img/observable-header-light.png#gh-light-mode-only)
 ![Observable (dark mode)](./img/observable-header-dark.png#gh-dark-mode-only)
 
