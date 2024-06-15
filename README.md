@@ -14,7 +14,7 @@ Observable: State across Frameworks
 
 ## Basic Example:
 [Open on Codesandbox](https://codesandbox.io/p/sandbox/broken-dust-dd33md)
-<br>
+<br><br>
 Import observable:
 ```jsx
 import { observable } from "./observable";
