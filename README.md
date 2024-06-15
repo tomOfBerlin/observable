@@ -39,8 +39,8 @@ And use it within React. Just like useState. It´s all connected.
 ```jsx
 export default function App() {
   [hello, setHello] = helloObservable.reactUseState();
-  
-  setHello("Hello from React");
+
+  setHello("Hello from React"); // identical to helloObservable.set, both work
 
   return (
     <div className="App">
