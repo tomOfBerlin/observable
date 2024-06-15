@@ -25,24 +25,14 @@ helloObservable = observable("Hello Default");
 ```
 You can change your observable from outside of React
 ```jsx
-sayHelloFromJS = function (...args) {
-  helloObservable.set("Hello from JS");
-};
-setTimeout(sayHelloFromJS, 2000);
+helloObservable.set("Hello from JS");
 ```
 And use it within React. Just like useState. It´s all connected.
 ```jsx
 export default function App() {
   [hello, setHello] = helloObservable.reactUseState();
   
-  // Change from React
-  useEffect(() => {
-    // Use setTimeout to update the message after 4 seconds
-    const timeoutId = setTimeout(() => {
-      setHello("Hello from React");
-    }, 4000);
-    return () => clearTimeout(timeoutId);
-  }, []);
+  setHello("Hello from React");
 
   return (
     <div className="App">
