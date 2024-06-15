@@ -8,7 +8,8 @@ install: `npm i toms-observable`
 Observable: State across Frameworks
 
 - Lightweight and fast (2kb)
-- Simple
+
+
 
 Basic Example: [codesandbox Demo](https://codesandbox.io/p/sandbox/broken-dust-dd33md)
 
