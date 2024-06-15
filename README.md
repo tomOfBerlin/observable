@@ -12,7 +12,7 @@ Observable: State across Frameworks
 <br>
 
 
-## Basic Example
+## Get started
 [Open on Codesandbox](https://codesandbox.io/p/sandbox/broken-dust-dd33md)
 <br>
 <br>
