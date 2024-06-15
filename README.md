@@ -6,6 +6,7 @@ Provides State across Frameworks. Change your state from anywhere and have it up
 - Lightweight and fast (2kb)
 <br>
 <br>
+
 ## Install
 `npm i toms-observable`
 <br>
