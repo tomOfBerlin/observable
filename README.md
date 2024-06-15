@@ -14,22 +14,27 @@ Observable: State across Frameworks
 
 ## Basic Example:
 [Open on Codesandbox](https://codesandbox.io/p/sandbox/broken-dust-dd33md)
-<br><br>
+<br>
+<br>
+
 Import observable:
 ```jsx
 import { observable } from "toms-observable";
 ```
 <br>
+
 Create your Observable (of any type, Objects are supported, too)
 ```jsx
 const helloObservable = observable("Hello Default");
 ```
 <br>
+
 You can change your observable from outside of React
 ```jsx
 helloObservable.set("Hello from JS");
 ```
 <br>
+
 And use it within React. Just like useState. It´s all connected.
 ```jsx
 export default function App() {
@@ -45,6 +50,7 @@ export default function App() {
   );
 }
 ```
+
 <br>
 ## Custom Getters - making hello Uppercase:
 
@@ -65,6 +71,7 @@ In react you can specify the getter to be used - the same observable can have mu
 ```
 <br>
 <br>
+
 ## Documentation
 
 Full docs and more demos are coming soon...
