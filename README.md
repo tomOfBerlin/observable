@@ -17,7 +17,7 @@ Observable: State across Frameworks
 <br><br>
 Import observable:
 ```jsx
-import { observable } from "./observable";
+import { observable } from "toms-observable";
 ```
 Create your Observable (of any type, Objects are supported, too)
 ```jsx
