@@ -62,7 +62,8 @@ export default function App() {
 // Change to let
 let helloObservable = observable("Hello Default");
 
-// add a custom get (you could overwrite the default get, but this gives you more flexibility
+// add a custom get (you could overwrite the default get,
+// but this gives you more flexibility. Use funtions, not =>
 helloObservable.getUpper = function () {
   return this.state.toUpperCase();
 };
