@@ -5,7 +5,7 @@
 
 install: `npm i toms-observable`
 
-Observable: State across Frameworks
+Provides State across Frameworks. Change your state from anywhere and have it update in React.
 
 - Lightweight and fast (2kb)
 <br>
