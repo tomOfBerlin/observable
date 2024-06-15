@@ -76,6 +76,8 @@ helloObservable.get() // Hello Default
 In React you can specify the getter to be used - the same observable can have unlimited getters
 ```jsx
 [hello, setHello] = helloObservable.reactUseState({'getter': 'getUpper'});
+setHello('React')
+{hello} // REACT
 ```
 <br>
 <br>
