@@ -34,9 +34,15 @@ ObservableInternals = (function() {
 
     reactGet(options) {
       var delay, reducer, rerender, state;
-      reducer = (state) => {
-        return this.get();
-      };
+      if (options.getter) {
+        reducer = (state) => {
+          return this[options.getter]();
+        };
+      } else {
+        reducer = (state) => {
+          return this.get();
+        };
+      }
       [state, rerender] = useReducer(reducer, this.state);
       //endObserve = @observe rerender
       delay = options != null ? options.delay : void 0;
