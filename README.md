@@ -21,7 +21,7 @@ import { observable } from "./observable";
 ```
 Create your Observable (of any type, Objects are supported, too)
 ```jsx
-helloObservable = observable("Hello Default");
+const helloObservable = observable("Hello Default");
 ```
 You can change your observable from outside of React
 ```jsx
