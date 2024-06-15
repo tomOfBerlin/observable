@@ -13,7 +13,7 @@ Observable: State across Frameworks
 
 
 ## Basic Example:
-[Codesandbox](https://codesandbox.io/p/sandbox/broken-dust-dd33md)
+[Open on Codesandbox](https://codesandbox.io/p/sandbox/broken-dust-dd33md)
 
 Import observable:
 ```jsx
