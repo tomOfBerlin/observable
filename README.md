@@ -3,14 +3,15 @@
 
 <br>
 
-install: `npm i toms-observable`
-
 Provides State across Frameworks. Change your state from anywhere and have it update in React.
 
 - Lightweight and fast (2kb)
 <br>
 <br>
-
+## Install
+`npm i toms-observable`
+<br>
+<br>
 
 ## Get started
 [Open on Codesandbox](https://codesandbox.io/p/sandbox/broken-dust-dd33md)
