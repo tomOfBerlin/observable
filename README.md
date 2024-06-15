@@ -12,19 +12,24 @@ Observable: State across Frameworks
 
 Basic Example: [codesandbox Demo](https://codesandbox.io/p/sandbox/broken-dust-dd33md)
 
+Import observable:
 ```jsx
 import { observable } from "./observable";
-
+```
+Create your Observable (of any type, Objects are supported, too)
+```jsx
 helloObservable = observable("Hello Default");
-
-// Change from outside of React
+```
+You can change your observable from outside of React
+```jsx
 sayHelloFromJS = function (...args) {
   helloObservable.set("Hello from JS");
 };
 setTimeout(sayHelloFromJS, 2000);
-
+```
+And use it within React. Just like useState. It´s all connected.
+```jsx
 export default function App() {
-  // Use it like useState inside React
   [hello, setHello] = helloObservable.reactUseState();
   
   // Change from React
@@ -43,5 +48,6 @@ export default function App() {
     </div>
   );
 }
-
 ```
+
+More demos are coming soon...
