@@ -12,7 +12,7 @@ Observable: State across Frameworks
 <br>
 
 
-## Basic Example:
+## Basic Example
 [Open on Codesandbox](https://codesandbox.io/p/sandbox/broken-dust-dd33md)
 <br>
 <br>
@@ -52,7 +52,11 @@ export default function App() {
 ```
 
 <br>
-## Custom Getters - making hello Uppercase:
+
+## Custom Getters (making hello Uppercase)
+[Open on Codesandbox](https://codesandbox.io/p/sandbox/observable-bascis-forked-f246vk)
+<br>
+<br>
 
 ```jsx
 // Change to let
